@@ -3,9 +3,14 @@ import React, { Component } from 'react';
 import './List.css';
 
 class List extends Component {
-    state = {
-        items: [1, 2, 3]
+    constructor(props) {
+        super(props);
+    
+        this.state = {
+            items: [1, 2, 3]
+        };
     }
+   
 
     addItemHandler = () => {
         this.setState((prevState) => {
@@ -13,7 +18,7 @@ class List extends Component {
                 items: prevState.items.concat(prevState.items.length + 1)
             };
         });
-    }
+    };
 
     removeItemHandler = (selIndex) => {
         this.setState((prevState) => {
@@ -21,7 +26,7 @@ class List extends Component {
                 items: prevState.items.filter((item, index) => index !== selIndex)
             };
         });
-    }
+    };
 
     render () {
         const listItems = this.state.items.map( (item, index) => (
