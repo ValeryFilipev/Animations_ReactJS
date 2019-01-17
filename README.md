@@ -1,3 +1,3 @@
 # Animations_ReactJS
-Just trying to make differ animations
+Just trying to make differ animations.
 Profit.
