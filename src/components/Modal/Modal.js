@@ -8,7 +8,7 @@ const animationTiming = {
   exit: 1000
 };
 
-const modal = (props) => {
+const modal = props => {
   return (
     <Transition
       mountOnEnter
