@@ -1,3 +1,4 @@
+//Alternative: https://github.com/chenglou/react-motion or https://react-move.js.org/#/ or https://reacttraining.com/react-router/web/example/animated-transitions or more
 import React, { Component } from "react";
 import Transition from 'react-transition-group/Transition';
 
